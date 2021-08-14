@@ -41,3 +41,15 @@ function getCircleCircumference(radius) {
 }
 var getCircleCircumferenceResults = getCircleCircumference(5);
 console.log('getCircleCircumference Exercise:', getCircleCircumferenceResults);
+
+function getFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+var getFullNameResults = getFullName('Juan', 'Ramirez');
+console.log('getFullName Exercise:', getFullNameResults);
+
+function cube(number) {
+  return number * number * number;
+}
+var cubeResults = cube(5);
+console.log('cube Exercise:', cubeResults);
