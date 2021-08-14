@@ -10,7 +10,7 @@ function convertHoursToMinutes(hours) {
   return hours * 60;
 }
 var convertHoursToMinutesResults = convertHoursToMinutes(2);
-console.log('convertHoursToMintutes Excercise:', convertHoursToMinutesResults);
+console.log('convertHoursToMintutes Exercise:', convertHoursToMinutesResults);
 
 function getGreeting(name) {
   return name;
@@ -23,3 +23,9 @@ function addAndMultiplyBy5(num1, num2) {
 }
 var addAndMultiplyBy5Results = addAndMultiplyBy5(10, 5);
 console.log('addAndMultiplyBy5 Exercise:', addAndMultiplyBy5Results);
+
+function multiplyAndDivideBy5(num1, num2) {
+  return (num1 * num2) / 5;
+}
+var multiplyAndDivideBy5Results = multiplyAndDivideBy5(35, 10);
+console.log('multiplyAndDivideBy Excercise:', multiplyAndDivideBy5Results);
