@@ -17,3 +17,9 @@ function getGreeting(name) {
 }
 var getGreetingResult = getGreeting('World');
 console.log('getGreetingResult Excercise: Hello' + ' ' + getGreetingResult + '!');
+
+function addAndMultiplyBy5(num1, num2) {
+  return (num1 + num2) * 5;
+}
+var addAndMultiplyBy5Results = addAndMultiplyBy5(10, 5);
+console.log('addAndMultiplyBy5 Exercise:', addAndMultiplyBy5Results);
